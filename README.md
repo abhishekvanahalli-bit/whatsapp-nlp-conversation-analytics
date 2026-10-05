@@ -85,6 +85,18 @@ previous run on screen with a short explanation.
 *Dashboard theme* (sidebar): optional PNG/JPG/WEBP image whose colours restyle the (always light and readable) interface. It lives only in the
 browser session, is never stored, analysed or downloaded, and cannot change any result.
 
+## Screenshots
+
+All screenshots use the **fictional** sample chat `data/sample_chat.txt` (12 invented participants); no real chat is shown.
+
+| | |
+|---|---|
+| **Overview** | ![Overview page](docs/images/overview.png) |
+| **Conversation** | ![Conversation page](docs/images/conversation.png) |
+| **NLP Insights: TF-IDF** | ![TF-IDF tab](docs/images/nlp_tfidf.png) |
+| **Patterns** | ![Patterns page](docs/images/patterns.png) |
+| **Empty state (before a chat is loaded)** | ![Empty state](docs/images/empty_state.png) |
+
 ## 7. Supported WhatsApp format
 
 Only this export format is supported (details, placeholders and unsupported formats: [`docs/supported_formats.md`](docs/supported_formats.md)):
@@ -143,7 +155,7 @@ app/                 Streamlit dashboard (streamlit_app.py, views.py, ui.py, cha
 src/                 Pipeline modules, privacy filter, bundle builder, run manager, configuration
 tests/               Test suite; tests/fixtures/ = fictional chats
 scripts/             run_full_pipeline.py, generate_synthetic_fixtures.py, check_repo_privacy.py, browser_smoke_test.py, benchmark_pipeline.py
-docs/                Design notes, supported formats, audit fixes, final verification
+docs/                Design notes, supported formats, audit fixes, final verification; docs/images = README screenshots (fictional data)
 notebooks/           Parsing and preprocessing walkthrough on the fictional sample
 data/                sample_chat.txt (fictional); real exports stay local and are ignored by Git
 results/             results/sample = output of the fictional sample; everything else ignored
