@@ -1,0 +1,8 @@
+weekday,calendar_days_in_range,active_dates,user_rows,system_rows
+Monday,1,1,13,0
+Tuesday,2,2,22,3
+Wednesday,2,2,26,2
+Thursday,2,2,27,0
+Friday,2,2,27,0
+Saturday,2,2,26,2
+Sunday,2,2,19,0

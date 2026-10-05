@@ -1,0 +1,9 @@
+metric,count,denominator,denominator_label
+text_messages,143,143,text messages
+unique_texts_after_masking,44,143,text messages
+repeat_messages_after_masking,99,143,text messages
+template_groups,35,44,unique texts
+largest_template_group_size,10,143,text messages
+exact_raw_duplicate_groups,37,143,text messages
+exact_raw_repeat_messages,95,143,text messages
+repeats_visible_only_after_masking,4,99,repeat messages after masking

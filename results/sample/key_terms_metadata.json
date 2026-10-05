@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "check": "coverage (unique texts) matches independent recomputation",
+      "mismatched_terms": 0,
+      "passed": true
+    },
+    {
+      "check": "every term occurs at least as often as it is contained",
+      "mismatched_terms": 0,
+      "passed": true
+    },
+    {
+      "check": "no placeholder terms",
+      "mismatched_terms": 0,
+      "passed": true
+    },
+    {
+      "check": "term count equals unique-variant vocabulary",
+      "mismatched_terms": 0,
+      "passed": true
+    }
+  ],
+  "design": "docs/language_and_keyword_design.md",
+  "differs_from": {
+    "tfidf": "distinctiveness (rarity rewarded)",
+    "unigram_frequency": "total occurrences (repeats and in-message repeats counted)"
+  },
+  "metric": "unique_texts_containing = number of unique messages containing the term",
+  "n_messages": 143,
+  "n_terms": 124,
+  "n_unique_messages": 44,
+  "privacy": "INTERNAL table; terms can include names. Apply the display filter before display/download",
+  "ranking": "unique_texts_containing descending, then term ascending",
+  "sources": [
+    "tfidf_top_terms.csv",
+    "ngram_unigrams.csv"
+  ]
+}

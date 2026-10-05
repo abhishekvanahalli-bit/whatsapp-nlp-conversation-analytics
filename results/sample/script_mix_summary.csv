@@ -1,0 +1,11 @@
+variant,message_class,messages,denominator,short_messages
+all,latin_only,103,143,23
+all,devanagari_only,28,143,22
+all,mixed_script,2,143,0
+all,other_script_only,0,143,0
+all,no_alphabetic,10,143,10
+unique,latin_only,31,44,7
+unique,devanagari_only,8,44,6
+unique,mixed_script,1,44,0
+unique,other_script_only,0,44,0
+unique,no_alphabetic,4,44,4

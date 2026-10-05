@@ -1,0 +1,7 @@
+# Runtime dependencies. The lower bounds are the versions the project was developed and tested with
+# (Python 3.12). Every package that is imported directly by the code is listed here.
+pandas>=3.0
+numpy>=2.1
+streamlit>=1.64
+plotly>=7.1
+pillow>=10.0

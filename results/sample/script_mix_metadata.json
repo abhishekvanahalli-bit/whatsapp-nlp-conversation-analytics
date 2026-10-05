@@ -1,0 +1,101 @@
+{
+  "agreement_with_existing_script_diagnostics": {
+    "agrees": true,
+    "devanagari_tokens_incl_mixed_tokens": [
+      86,
+      86
+    ],
+    "latin_tokens": [
+      526,
+      526
+    ]
+  },
+  "all_reconciliation_checks_passed": true,
+  "definitions": {
+    "alphabetic_token": "contains at least one letter; placeholders, digits, emoji, punctuation excluded",
+    "alternation": "adjacent alphabetic-token pairs with different script label",
+    "devanagari_share": "devanagari alphabetic tokens / alphabetic tokens (mixed tokens not counted as devanagari)",
+    "message_class": [
+      "latin_only",
+      "devanagari_only",
+      "mixed_script",
+      "other_script_only",
+      "no_alphabetic"
+    ],
+    "short_message": "3 alphabetic tokens or fewer"
+  },
+  "design": "docs/language_and_keyword_design.md",
+  "n_messages": {
+    "all": 143,
+    "unique": 44
+  },
+  "n_reconciliation_checks": 10,
+  "privacy": "aggregate counts only; no per-message rows, text, senders, URLs or phone numbers",
+  "reconciliation_checks": [
+    {
+      "check": "all: class counts sum == messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "all: short messages <= messages",
+      "left": 1,
+      "passed": true,
+      "right": 1
+    },
+    {
+      "check": "unique: class counts sum == messages",
+      "left": 44,
+      "passed": true,
+      "right": 44
+    },
+    {
+      "check": "unique: short messages <= messages",
+      "left": 1,
+      "passed": true,
+      "right": 1
+    },
+    {
+      "check": "all == number of text messages in corpus",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "unique + repeats == all",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "all: share bands sum == mixed messages",
+      "left": 2,
+      "passed": true,
+      "right": 2
+    },
+    {
+      "check": "unique: share bands sum == mixed messages",
+      "left": 1,
+      "passed": true,
+      "right": 1
+    },
+    {
+      "check": "alternations are zero outside mixed_script",
+      "left": 0,
+      "passed": true,
+      "right": 0
+    },
+    {
+      "check": "no mixed_script message lacks a second script",
+      "left": 0,
+      "passed": true,
+      "right": 0
+    }
+  ],
+  "variants": {
+    "all": "every text message, repeats kept (primary)",
+    "unique": "first copy of each distinct masked text (sensitivity)"
+  },
+  "what_this_is": "script composition (deterministic, from Unicode letter names); NOT language identification and NOT proof of code-switching"
+}

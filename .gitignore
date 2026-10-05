@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration / secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# PRIVATE DATA: never commit a real chat export or anything derived from one
+# ---------------------------------------------------------------------------
+# The only data file that is committed is the fictional data/sample_chat.txt.
+data/*
+!data/README.md
+!data/sample_chat.txt
+# Anything kept for local use only (private exports, their results, private notebooks, old backups)
+local_private/
+private/
+# local-only regression test holding aggregate expectations for the private chat
+tests/test_private_sample_regression.py
+# Files named like WhatsApp's own export names
+WhatsApp Chat*
+*WhatsApp*Chat*.txt
+_chat.txt
+*.zip
+# Generated results: only the documented synthetic example (results/sample) is committed
+results/*
+!results/README.md
+!results/sample/
+!results/sample/**
+
+# ---------------------------------------------------------------------------
+# Notebook, editor, OS and tool artefacts
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit and browser-test artefacts (screenshots may show real data if a private chat was loaded)
+.streamlit/cache/
+screenshots/
+shots/
+playwright-report/
+test-results/
+*.log
+
+# Temporary and job folders
+tmp/
+temp/
+.tmp/
+.claude/
+jobs/

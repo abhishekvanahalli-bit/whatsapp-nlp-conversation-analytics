@@ -1,0 +1,15 @@
+metric,count,denominator,denominator_label
+forwarded_user_rows,5,160,user rows
+forwarded_text_messages,5,143,text messages
+forwarded_media_rows,0,12,media rows
+forwarded_deleted_rows,0,5,deleted rows
+non_forwarded_text_messages,138,143,text messages
+deleted_rows,5,160,user rows
+deleted_by_admin_rows,0,5,deleted rows
+dates_with_deleted_rows,5,5,deleted rows
+max_deleted_rows_on_one_date,1,5,deleted rows
+max_deleted_rows_in_one_second,1,5,deleted rows
+media_rows,12,160,user rows
+album_rows,0,12,media rows
+text_messages_with_url,9,143,text messages
+text_messages_with_phone_pattern,1,143,text messages

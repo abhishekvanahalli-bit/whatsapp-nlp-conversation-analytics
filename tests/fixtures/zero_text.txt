@@ -1,0 +1,5 @@
+‎Messages and calls are end-to-end encrypted. Only people in this chat can read them.
+[3/10/26, 9:00:00 AM] Alex Demo: <image omitted>
+[3/10/26, 9:01:00 AM] Sam Sample: This message was deleted
+[3/10/26, 9:02:00 AM] ‎Alex Demo added Sam Sample
+[3/10/26, 9:03:00 AM] Sam Sample: <video omitted>

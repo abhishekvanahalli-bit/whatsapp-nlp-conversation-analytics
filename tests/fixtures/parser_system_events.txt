@@ -1,0 +1,12 @@
+[3/10/26, 9:00:00 AM] ‎Messages and calls are end-to-end encrypted. Only people in this chat can read them.
+[3/10/26, 9:00:05 AM] ‎Alex Demo created group “Fictional Team”
+[3/10/26, 9:00:10 AM] ‎Alex Demo added Sam Sample
+[3/10/26, 9:00:15 AM] - Sam Sample's security code changed. Tap to learn more.
+[3/10/26, 9:01:00 AM] Sam Sample: hello everyone
+[3/10/26, 9:02:00 AM] ‎Sam Sample left
+[3/10/26, 9:03:00 AM] ‎You were added
+[3/10/26, 9:04:00 AM] ‎Alex Demo changed the group name to “Fictional Crew”
+[3/10/26, 9:05:00 AM] ‎Alex Demo changed the subject from “Plan: A” to “Plan: B”
+[3/10/26, 9:06:00 AM] - Alex Demo changed settings: only admins can send messages
+[3/10/26, 9:07:00 AM] Alex Demo: ok thanks
+[3/10/26, 9:08:00 AM] ‎Riya Testwala joined using this group's invite link

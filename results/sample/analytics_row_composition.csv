@@ -1,0 +1,12 @@
+group,category,count,denominator,denominator_label
+parsed_rows,header,1,168,parsed rows
+parsed_rows,system,7,168,parsed rows
+parsed_rows,user,160,168,parsed rows
+user_rows,text,143,160,user rows
+user_rows,media,12,160,user rows
+user_rows,deleted,5,160,user rows
+media_type,image,12,12,media rows
+system_category,security_code_changed,1,7,system rows
+system_category,member_added,1,7,system rows
+system_category,settings_changed,2,7,system rows
+system_category,other_system_event,3,7,system rows

@@ -1,0 +1,188 @@
+{
+  "all_reconciliation_checks_passed": true,
+  "design": "docs/conversation_analytics_design.md",
+  "excluded_analyses": [
+    "morning/afternoon/evening/night periods",
+    "message length over time",
+    "per-sender comparisons",
+    "reply network"
+  ],
+  "first_timestamp_as_exported": "2026-03-10 08:30:00",
+  "interpretation": "descriptive counts for this chat only; not generalisable",
+  "last_timestamp_as_exported": "2026-03-22 06:52:15",
+  "n_reconciliation_checks": 28,
+  "privacy": "no raw sender, message, system text, phone number, name or URL in outputs",
+  "pseudonyms": "Participant_N by first appearance across all user rows; independent of the pseudonyms used in the NLP outputs; no crosswalk created or written",
+  "reconciliation_checks": [
+    {
+      "check": "header+system+user == parsed rows",
+      "left": 168,
+      "passed": true,
+      "right": 168
+    },
+    {
+      "check": "text+media+deleted == user rows",
+      "left": 160,
+      "passed": true,
+      "right": 160
+    },
+    {
+      "check": "media and deleted are mutually exclusive",
+      "left": 0,
+      "passed": true,
+      "right": 0
+    },
+    {
+      "check": "media types sum == media rows",
+      "left": 12,
+      "passed": true,
+      "right": 12
+    },
+    {
+      "check": "system categories sum == system rows",
+      "left": 7,
+      "passed": true,
+      "right": 7
+    },
+    {
+      "check": "unique+repeat == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "text messages agree with composition",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "template group sizes reproduce repeat count",
+      "left": 99,
+      "passed": true,
+      "right": 99
+    },
+    {
+      "check": "sender user rows sum == user rows",
+      "left": 160,
+      "passed": true,
+      "right": 160
+    },
+    {
+      "check": "sender text messages sum == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "sender media rows sum == media rows",
+      "left": 12,
+      "passed": true,
+      "right": 12
+    },
+    {
+      "check": "sender deleted rows sum == deleted rows",
+      "left": 5,
+      "passed": true,
+      "right": 5
+    },
+    {
+      "check": "sender forwarded rows sum == forwarded rows",
+      "left": 5,
+      "passed": true,
+      "right": 5
+    },
+    {
+      "check": "forwarded text+media+deleted == forwarded rows",
+      "left": 5,
+      "passed": true,
+      "right": 5
+    },
+    {
+      "check": "forwarded+non-forwarded text == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "daily total rows == timestamped rows",
+      "left": 167,
+      "passed": true,
+      "right": 167
+    },
+    {
+      "check": "daily per-kind sums == kind totals",
+      "left": 167,
+      "passed": true,
+      "right": 167
+    },
+    {
+      "check": "daily text == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "daily media == media rows",
+      "left": 12,
+      "passed": true,
+      "right": 12
+    },
+    {
+      "check": "daily deleted == deleted rows",
+      "left": 5,
+      "passed": true,
+      "right": 5
+    },
+    {
+      "check": "daily system == system rows",
+      "left": 7,
+      "passed": true,
+      "right": 7
+    },
+    {
+      "check": "calendar days == active + empty dates",
+      "left": 13,
+      "passed": true,
+      "right": 13
+    },
+    {
+      "check": "hour histogram sums == timestamped rows",
+      "left": 167,
+      "passed": true,
+      "right": 167
+    },
+    {
+      "check": "weekday table sums == timestamped rows",
+      "left": 167,
+      "passed": true,
+      "right": 167
+    },
+    {
+      "check": "weekday calendar days == calendar length",
+      "left": 13,
+      "passed": true,
+      "right": 13
+    },
+    {
+      "check": "text length n == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "TF-IDF primary N == text messages",
+      "left": 143,
+      "passed": true,
+      "right": 143
+    },
+    {
+      "check": "TF-IDF unique N == unique texts",
+      "left": 44,
+      "passed": true,
+      "right": 44
+    }
+  ],
+  "tfidf_cross_check": "included",
+  "timestamps": "timestamps used as written in the export; time zone not verified"
+}

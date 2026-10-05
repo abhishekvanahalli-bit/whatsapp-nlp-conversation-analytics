@@ -1,0 +1,8 @@
+# Keep fixtures, sample data and example results byte-stable across operating systems (LF line endings).
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+tests/fixtures/*.txt text eol=lf
+data/sample_chat.txt text eol=lf
+results/sample/** text eol=lf
+*.ipynb text eol=lf

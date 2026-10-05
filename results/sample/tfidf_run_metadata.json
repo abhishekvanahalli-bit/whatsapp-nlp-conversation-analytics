@@ -1,0 +1,90 @@
+{
+  "N_definition": "total documents in selected corpus, empty documents included",
+  "design": "docs/tfidf_design.md",
+  "formula": {
+    "idf": "ln((1+N)/(1+df)) + 1",
+    "normalisation": "L2 per non-empty document",
+    "tf": "raw count",
+    "tfidf": "tf * idf",
+    "total_tfidf": "sum of L2-normalised tfidf over documents"
+  },
+  "interpretation": "terms distinctive within this chat; descriptive, not generalisable",
+  "libraries": {
+    "numpy": "2.1.1",
+    "pandas": "3.0.5",
+    "scikit-learn (reference only)": "1.9.0"
+  },
+  "top10_overlap_between_variants": 0.4,
+  "unit_of_document": "one message",
+  "variants": {
+    "all": {
+      "empty_document_line_start": [],
+      "leave_one_out_top_k": {
+        "argmin_doc_index": 14,
+        "k": 10,
+        "mean_overlap": 0.9748,
+        "min_overlap": 0.8,
+        "mode": "full_leave_one_out",
+        "n_documents": 143,
+        "n_runs": 143
+      },
+      "n_documents_N": 143,
+      "n_documents_with_phone": 1,
+      "n_documents_with_url": 9,
+      "n_empty_documents": 0,
+      "n_forwarded_documents": 5,
+      "n_non_empty_documents": 143,
+      "n_repeat_documents_in_variant": 99,
+      "role": "primary",
+      "sklearn_reference_max_abs_diff": 1.1102230246251565e-16,
+      "top10_terms_by_total_tfidf": [
+        "details",
+        "will",
+        "ok",
+        "call",
+        "join",
+        "❤️",
+        "see",
+        "today",
+        "कल",
+        "मैच"
+      ],
+      "vocabulary_size": 124
+    },
+    "unique": {
+      "empty_document_line_start": [],
+      "leave_one_out_top_k": {
+        "argmin_doc_index": 11,
+        "k": 10,
+        "mean_overlap": 0.9636,
+        "min_overlap": 0.8,
+        "mode": "full_leave_one_out",
+        "n_documents": 44,
+        "n_runs": 44
+      },
+      "n_documents_N": 44,
+      "n_documents_with_phone": 1,
+      "n_documents_with_url": 1,
+      "n_empty_documents": 0,
+      "n_forwarded_documents": 2,
+      "n_non_empty_documents": 44,
+      "n_repeat_documents_in_variant": 0,
+      "role": "sensitivity",
+      "sklearn_reference_max_abs_diff": 1.1102230246251565e-16,
+      "top10_terms_by_total_tfidf": [
+        "please",
+        "practice",
+        "call",
+        "see",
+        "आहे",
+        "hai",
+        "आज",
+        "details",
+        "❤️",
+        "👍"
+      ],
+      "vocabulary_size": 124
+    }
+  },
+  "vocabulary": "unigrams; English stopwords (Day 1 list) removed; <URL>/<PHONE> excluded; no Marathi/Hindi stopword list"
+}

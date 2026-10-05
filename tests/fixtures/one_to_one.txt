@@ -1,0 +1,77 @@
+‎Messages and calls are end-to-end encrypted. Only people in this chat can read them.
+[3/10/26, 9:30:52 AM] Sam Sample: lunch today anyone?
+[3/10/26, 11:16:01 AM] Sam Sample: ok will join the call
+[3/10/26, 1:13:16 PM] Sam Sample: great game today well played
+[3/10/26, 3:47:03 PM] Alex Demo: kal practice hai kya
+[3/10/26, 5:44:37 PM] Alex Demo: practice is cancelled tomorrow
+[3/10/26, 7:21:11 PM] Alex Demo: first line of a note
+second line
+
+last line after a blank line
+[3/10/26, 9:37:04 PM] Alex Demo: कृपया उपस्थित रहा।
+[3/10/26, 11:54:04 PM] Alex Demo: bring water and snacks
+[3/11/26, 2:01:32 AM] Alex Demo: tumhi ready ahat ka? ok
+[3/11/26, 4:15:33 AM] Sam Sample: reached the venue
+[3/11/26, 6:22:36 AM] Sam Sample: who is bringing the equipment
+[3/11/26, 8:12:42 AM] Sam Sample: <image omitted>
+[3/11/26, 10:19:34 AM] Alex Demo: bring water and snacks
+[3/11/26, 12:10:57 PM] Alex Demo: see you at the ground at five
+[3/11/26, 2:02:34 PM] Alex Demo: sent the document to everyone
+[3/11/26, 4:23:30 PM] Sam Sample: kal practice hai kya
+[3/11/26, 6:23:30 PM] Alex Demo: the meeting starts at ten please be on time
+[3/11/26, 8:44:21 PM] Sam Sample: reminder: fees are due this friday
+[3/11/26, 10:24:24 PM] Alex Demo: happy birthday have a great day
+[3/12/26, 12:14:19 AM] Alex Demo: please confirm the number of players
+[3/12/26, 2:12:39 AM] Sam Sample: thanks a lot for the update
+[3/12/26, 4:58:33 AM] Alex Demo: lunch today anyone?
+[3/12/26, 7:05:22 AM] Alex Demo: आज प्रैक्टिस नहीं होगी
+[3/12/26, 8:26:48 AM] Sam Sample: good morning team
+[3/12/26, 10:22:18 AM] Sam Sample: booking confirmed for the hall
+[3/12/26, 12:27:02 PM] Alex Demo: first line of a note
+second line
+
+last line after a blank line
+[3/12/26, 3:10:13 PM] Alex Demo: <image omitted>
+[3/12/26, 4:42:33 PM] Alex Demo: please confirm the number of players
+[3/12/26, 7:17:39 PM] Sam Sample: आज प्रैक्टिस नहीं होगी
+[3/12/26, 8:44:25 PM] Alex Demo: [Forwarded] Weekly schedule: practice on Monday and Thursday
+[3/12/26, 10:43:54 PM] Sam Sample: tumhi ready ahat ka? ok
+[3/13/26, 12:54:58 AM] Sam Sample: bring water and snacks
+[3/13/26, 3:16:03 AM] Alex Demo: reminder: fees are due this friday
+[3/13/26, 5:08:43 AM] Alex Demo: see you at the ground at five
+[3/13/26, 7:39:30 AM] Alex Demo: आज प्रैक्टिस नहीं होगी
+[3/13/26, 9:32:56 AM] Alex Demo: running late will be there soon
+[3/13/26, 11:10:51 AM] Alex Demo: please share the schedule for next week
+[3/13/26, 1:23:07 PM] Sam Sample: 😀😀
+[3/13/26, 3:30:18 PM] Alex Demo: practice is cancelled tomorrow
+[3/13/26, 5:22:19 PM] Alex Demo: who is bringing the equipment
+[3/13/26, 7:36:15 PM] Alex Demo: sent the document to everyone
+[3/13/26, 9:21:41 PM] Alex Demo: आज practice आहे please come
+[3/13/26, 11:41:00 PM] Alex Demo: <image omitted>
+[3/14/26, 1:46:39 AM] Sam Sample: the match is on saturday
+[3/14/26, 3:37:08 AM] Sam Sample: details here https://example.com/demo?id=4
+[3/14/26, 5:56:52 AM] Alex Demo: thanks a lot for the update
+[3/14/26, 8:10:06 AM] Sam Sample: lunch today anyone?
+[3/14/26, 9:42:35 AM] Alex Demo: reminder: fees are due this friday
+[3/14/26, 12:06:20 PM] Alex Demo: who is bringing the equipment
+[3/14/26, 2:18:55 PM] Sam Sample: the match is on saturday
+[3/14/26, 4:14:44 PM] Sam Sample: This message was deleted
+[3/14/26, 6:27:09 PM] Alex Demo: aaj nahi yenar
+[3/14/26, 8:00:20 PM] Sam Sample: शुक्रिया दोस्तों
+[3/14/26, 10:27:35 PM] Alex Demo: reached the venue
+[3/15/26, 12:11:19 AM] Alex Demo: aaj nahi yenar
+[3/15/26, 2:58:16 AM] Sam Sample: tumhi ready ahat ka? ok
+[3/15/26, 4:42:04 AM] Sam Sample: reached the venue
+[3/15/26, 6:50:49 AM] Alex Demo: great game today well played
+[3/15/26, 8:51:40 AM] Alex Demo: the meeting starts at ten please be on time
+[3/15/26, 10:29:59 AM] Sam Sample: 😀😀
+[3/15/26, 12:43:09 PM] Alex Demo: booking confirmed for the hall
+[3/15/26, 3:15:25 PM] Alex Demo: उद्या भेटू
+[3/15/26, 5:17:37 PM] Sam Sample: reached the venue
+[3/15/26, 6:58:19 PM] Sam Sample: the meeting starts at ten please be on time
+[3/15/26, 9:22:42 PM] Sam Sample: the meeting starts at ten please be on time
+[3/15/26, 10:57:28 PM] Sam Sample: thanks a lot for the update
+[3/16/26, 1:00:36 AM] Alex Demo: details here https://example.com/demo?id=3
+[3/16/26, 2:52:28 AM] Alex Demo: happy birthday have a great day
+[3/16/26, 5:04:40 AM] Alex Demo: happy birthday have a great day
+[3/16/26, 7:11:10 AM] Sam Sample: 🙏

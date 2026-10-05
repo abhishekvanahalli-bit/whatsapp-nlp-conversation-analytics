@@ -1,0 +1,16 @@
+‎Messages and calls are end-to-end encrypted. Only people in this chat can read them.
+‎[3/10/26, 9:00:00 AM] Alex Demo: ‎image omitted
+[3/10/26, 9:01:00 AM] Sam Sample: don’t forget the “plan” tomorrow
+‎[3/10/26, 9:02:00 AM] Sam Sample: first line
+second line
+
+after a blank line
+[3/10/26, 9:03:00 AM] राधा नमुना: कृपया उपस्थित रहा।
+[3/10/26, 9:04:00 AM] राधा नमुना: कल मैच है॥ ठीक है…
+[3/10/26, 9:05:00 AM] Alex Demo: [see this] list: one, two
+[3/10/26, 9:06:00 AM] Alex Demo: [3/10/26, 9:00:00 AM] quoted timestamp inside a message
+[3/10/26, 9:07:00 PM] Alex Demo: emoji 😀 hi😀 👍🏽 done
+[3/10/26, 9:08:00 PM] Alex Demo: don't go now, please
+‎‏[3/10/26, 9:09:00 PM] Sam Sample: mark before bracket
+[12/31/26, 11:59:00 PM] Sam Sample: last message of the year
+[1/1/27, 12:01:00 AM] Sam Sample: first message of the next year

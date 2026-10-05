@@ -1,0 +1,144 @@
+line_start,sender_anon,is_forwarded,tokens,tokens_no_stopwords,text_masked,is_repeat
+5,Sender_1,False,वेळेत या,वेळेत या,वेळेत या,False
+7,Sender_2,False,tumhi ready ahat ka ok,tumhi ready ahat ka ok,tumhi ready ahat ka ok,False
+8,Sender_3,False,see you at the ground at five,see ground five,see you at the ground at five,False
+9,Sender_3,False,details here <URL>,details <URL>,details here <URL>,False
+10,Sender_4,False,sent the document to everyone,sent document everyone,sent the document to everyone,False
+11,Sender_3,False,who is bringing the equipment,bringing equipment,who is bringing the equipment,False
+12,Sender_5,False,mala sangaa please,mala sangaa please,mala sangaa please,False
+13,Sender_6,False,well done 🎉,well done 🎉,well done 🎉,False
+14,Sender_7,False,sab log aa rahe ho na,sab log aa rahe ho na,sab log aa rahe ho na,False
+15,Sender_7,False,bring water and snacks,bring water snacks,bring water and snacks,False
+16,Sender_8,False,see you at the ground at five,see ground five,see you at the ground at five,True
+17,Sender_6,False,❤️,❤️,❤️,False
+18,Sender_9,False,ठीक hai see you there,ठीक hai see,ठीक hai see you there,False
+19,Sender_3,False,ok will join the call,ok will join call,ok will join the call,False
+21,Sender_5,False,कल मैच है,कल मैच है,कल मैच है,False
+22,Sender_9,False,can someone send the location,can someone send location,can someone send the location,False
+23,Sender_10,False,सब लोग समय पर आना,सब लोग समय पर आना,सब लोग समय पर आना,False
+24,Sender_3,False,❤️,❤️,❤️,True
+25,Sender_6,False,tumhi kadhi yenar,tumhi kadhi yenar,tumhi kadhi yenar,False
+28,Sender_3,True,weekly schedule practice on monday and thursday,weekly schedule practice monday thursday,weekly schedule practice on monday and thursday,False
+29,Sender_7,False,lunch today anyone,lunch today anyone,lunch today anyone,False
+30,Sender_1,False,sent the document to everyone,sent document everyone,sent the document to everyone,True
+31,Sender_2,False,उद्या भेटू,उद्या भेटू,उद्या भेटू,False
+32,Sender_2,False,👍,👍,👍,False
+33,Sender_4,False,कल मैच है,कल मैच है,कल मैच है,True
+34,Sender_10,False,practice is cancelled tomorrow,practice cancelled tomorrow,practice is cancelled tomorrow,False
+35,Sender_6,False,उद्या भेटू,उद्या भेटू,उद्या भेटू,True
+36,Sender_10,False,❤️,❤️,❤️,True
+37,Sender_10,False,कल मैच है,कल मैच है,कल मैच है,True
+38,Sender_11,False,details here <URL>,details <URL>,details here <URL>,True
+39,Sender_1,False,who is bringing the equipment,bringing equipment,who is bringing the equipment,True
+40,Sender_11,False,सामना शनिवारी आहे,सामना शनिवारी आहे,सामना शनिवारी आहे,False
+41,Sender_5,False,see you at the ground at five,see ground five,see you at the ground at five,True
+42,Sender_1,False,the meeting starts at ten please be on time,meeting starts ten please time,the meeting starts at ten please be on time,False
+43,Sender_8,False,well done 🎉,well done 🎉,well done 🎉,True
+44,Sender_12,False,good morning team,good morning team,good morning team,False
+45,Sender_11,False,see you at the ground at five,see ground five,see you at the ground at five,True
+46,Sender_6,False,details here <URL>,details <URL>,details here <URL>,True
+47,Sender_4,False,ok will join the call,ok will join call,ok will join the call,True
+48,Sender_6,False,running late will be there soon,running late will soon,running late will be there soon,False
+49,Sender_9,False,great game today well played,great game today well played,great game today well played,False
+50,Sender_10,False,वेळेत या,वेळेत या,वेळेत या,True
+51,Sender_5,False,see you at the ground at five,see ground five,see you at the ground at five,True
+52,Sender_12,False,ok will join the call,ok will join call,ok will join the call,True
+53,Sender_7,False,the meeting starts at ten please be on time,meeting starts ten please time,the meeting starts at ten please be on time,True
+54,Sender_7,False,lunch today anyone,lunch today anyone,lunch today anyone,True
+55,Sender_1,False,😀😀,😀😀,😀😀,False
+56,Sender_3,False,details here <URL>,details <URL>,details here <URL>,True
+57,Sender_12,False,great game today well played,great game today well played,great game today well played,True
+58,Sender_9,False,reached the venue,reached venue,reached the venue,False
+61,Sender_8,False,details here <URL>,details <URL>,details here <URL>,True
+62,Sender_1,False,ok will join the call,ok will join call,ok will join the call,True
+63,Sender_5,False,tumhi kadhi yenar,tumhi kadhi yenar,tumhi kadhi yenar,True
+65,Sender_3,False,thanks a lot for the update,thanks lot update,thanks a lot for the update,False
+66,Sender_5,False,tumhi ready ahat ka ok,tumhi ready ahat ka ok,tumhi ready ahat ka ok,True
+67,Sender_8,True,weekly schedule practice on monday and thursday,weekly schedule practice monday thursday,weekly schedule practice on monday and thursday,True
+68,Sender_8,False,the meeting starts at ten please be on time,meeting starts ten please time,the meeting starts at ten please be on time,True
+69,Sender_9,False,booking confirmed for the hall,booking confirmed hall,booking confirmed for the hall,False
+70,Sender_12,False,❤️,❤️,❤️,True
+71,Sender_9,False,great game today well played,great game today well played,great game today well played,True
+72,Sender_2,False,sent the document to everyone,sent document everyone,sent the document to everyone,True
+73,Sender_9,False,kal practice hai kya,kal practice hai kya,kal practice hai kya,False
+74,Sender_5,False,sent the document to everyone,sent document everyone,sent the document to everyone,True
+75,Sender_11,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,False
+77,Sender_8,False,please confirm the number of players,please confirm number players,please confirm the number of players,False
+78,Sender_2,False,lunch today anyone,lunch today anyone,lunch today anyone,True
+79,Sender_1,False,sab log aa rahe ho na,sab log aa rahe ho na,sab log aa rahe ho na,True
+80,Sender_1,False,the match is on saturday,match saturday,the match is on saturday,False
+81,Sender_3,False,the match is on saturday,match saturday,the match is on saturday,True
+83,Sender_3,False,शुक्रिया दोस्तों,शुक्रिया दोस्तों,शुक्रिया दोस्तों,False
+84,Sender_9,False,running late will be there soon,running late will soon,running late will be there soon,True
+85,Sender_9,False,🙏,🙏,🙏,False
+86,Sender_9,False,ok will join the call,ok will join call,ok will join the call,True
+87,Sender_10,False,can someone send the location,can someone send location,can someone send the location,True
+88,Sender_11,False,सामना शनिवारी आहे,सामना शनिवारी आहे,सामना शनिवारी आहे,True
+89,Sender_4,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,True
+90,Sender_12,False,ok will join the call,ok will join call,ok will join the call,True
+92,Sender_10,False,call me on <PHONE> later,call <PHONE> later,call me on <PHONE> later,False
+93,Sender_1,False,ok will join the call,ok will join call,ok will join the call,True
+94,Sender_11,False,running late will be there soon,running late will soon,running late will be there soon,True
+95,Sender_5,False,the meeting starts at ten please be on time,meeting starts ten please time,the meeting starts at ten please be on time,True
+96,Sender_7,False,the match is on saturday,match saturday,the match is on saturday,True
+97,Sender_11,False,bring water and snacks,bring water snacks,bring water and snacks,True
+98,Sender_8,False,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,False
+100,Sender_6,False,😀😀,😀😀,😀😀,True
+101,Sender_12,True,reminder to carry id cards,reminder carry id cards,reminder to carry id cards,False
+102,Sender_9,False,सब लोग समय पर आना,सब लोग समय पर आना,सब लोग समय पर आना,True
+103,Sender_4,False,who is bringing the equipment,bringing equipment,who is bringing the equipment,True
+105,Sender_6,False,ok will join the call,ok will join call,ok will join the call,True
+106,Sender_5,False,ok will join the call,ok will join call,ok will join the call,True
+107,Sender_10,False,ठीक hai see you there,ठीक hai see,ठीक hai see you there,True
+108,Sender_10,False,उद्या भेटू,उद्या भेटू,उद्या भेटू,True
+109,Sender_5,False,आज सराव आहे,आज सराव आहे,आज सराव आहे,False
+111,Sender_8,False,कल मैच है,कल मैच है,कल मैच है,True
+112,Sender_1,False,details here <URL>,details <URL>,details here <URL>,True
+113,Sender_4,False,please confirm the number of players,please confirm number players,please confirm the number of players,True
+116,Sender_10,False,details here <URL>,details <URL>,details here <URL>,True
+117,Sender_8,False,आज सराव आहे,आज सराव आहे,आज सराव आहे,True
+118,Sender_3,False,😀😀,😀😀,😀😀,True
+119,Sender_10,False,कल मैच है,कल मैच है,कल मैच है,True
+120,Sender_10,False,can someone send the location,can someone send location,can someone send the location,True
+121,Sender_3,False,details here <URL>,details <URL>,details here <URL>,True
+122,Sender_2,False,please share the schedule for next week,please share schedule next week,please share the schedule for next week,False
+123,Sender_9,False,happy birthday have a great day,happy birthday great day,happy birthday have a great day,False
+124,Sender_5,False,कल मैच है,कल मैच है,कल मैच है,True
+125,Sender_4,False,happy birthday have a great day,happy birthday great day,happy birthday have a great day,True
+126,Sender_8,False,सामना शनिवारी आहे,सामना शनिवारी आहे,सामना शनिवारी आहे,True
+127,Sender_11,False,who is bringing the equipment,bringing equipment,who is bringing the equipment,True
+128,Sender_3,False,sent the document to everyone,sent document everyone,sent the document to everyone,True
+129,Sender_3,False,वेळेत या,वेळेत या,वेळेत या,True
+130,Sender_1,False,kal practice hai kya,kal practice hai kya,kal practice hai kya,True
+131,Sender_11,False,who is bringing the equipment,bringing equipment,who is bringing the equipment,True
+132,Sender_11,True,reminder to carry id cards,reminder carry id cards,reminder to carry id cards,True
+133,Sender_2,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,True
+134,Sender_2,False,see you at the ground at five,see ground five,see you at the ground at five,True
+135,Sender_10,False,first line of a note second line last line after a blank line,first line note second line last line blank line,first line of a note second line last line after a blank line,False
+139,Sender_5,False,details here <URL>,details <URL>,details here <URL>,True
+140,Sender_4,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,True
+141,Sender_4,False,kal practice hai kya,kal practice hai kya,kal practice hai kya,True
+142,Sender_2,False,can someone send the location,can someone send location,can someone send the location,True
+143,Sender_10,False,lunch today anyone,lunch today anyone,lunch today anyone,True
+144,Sender_2,False,उद्या भेटू,उद्या भेटू,उद्या भेटू,True
+145,Sender_9,False,ok will join the call,ok will join call,ok will join the call,True
+146,Sender_5,False,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,True
+147,Sender_1,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,True
+148,Sender_11,False,आज सराव आहे,आज सराव आहे,आज सराव आहे,True
+149,Sender_1,False,sent the document to everyone,sent document everyone,sent the document to everyone,True
+150,Sender_6,False,reminder fees are due this friday,reminder fees due friday,reminder fees are due this friday,True
+151,Sender_4,False,lunch today anyone,lunch today anyone,lunch today anyone,True
+152,Sender_11,False,great game today well played,great game today well played,great game today well played,True
+153,Sender_4,False,शुक्रिया दोस्तों,शुक्रिया दोस्तों,शुक्रिया दोस्तों,True
+154,Sender_1,False,कल मैच है,कल मैच है,कल मैच है,True
+155,Sender_4,False,running late will be there soon,running late will soon,running late will be there soon,True
+157,Sender_2,True,weekly schedule practice on monday and thursday,weekly schedule practice monday thursday,weekly schedule practice on monday and thursday,True
+159,Sender_6,False,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,आज प्रैक्टिस नहीं होगी,True
+161,Sender_11,False,mala sangaa please,mala sangaa please,mala sangaa please,True
+162,Sender_6,False,सब लोग समय पर आना,सब लोग समय पर आना,सब लोग समय पर आना,True
+164,Sender_11,False,happy birthday have a great day,happy birthday great day,happy birthday have a great day,True
+165,Sender_10,False,happy birthday have a great day,happy birthday great day,happy birthday have a great day,True
+166,Sender_12,False,reached the venue,reached venue,reached the venue,True
+168,Sender_5,False,the match is on saturday,match saturday,the match is on saturday,True
+169,Sender_7,False,the meeting starts at ten please be on time,meeting starts ten please time,the meeting starts at ten please be on time,True
+171,Sender_4,False,❤️,❤️,❤️,True

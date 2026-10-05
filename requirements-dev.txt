@@ -1,0 +1,8 @@
+# Development and test dependencies (install with: pip install -r requirements-dev.txt)
+-r requirements.txt
+pytest>=9.0
+# Independent reference implementation used by the TF-IDF cross-check (metadata and tests).
+# The pipeline itself runs without it (the cross-check is then recorded as unavailable).
+scikit-learn>=1.9
+# Optional, only for scripts/browser_smoke_test.py (real-browser screenshots; needs Microsoft Edge or Chromium):
+# playwright>=1.50

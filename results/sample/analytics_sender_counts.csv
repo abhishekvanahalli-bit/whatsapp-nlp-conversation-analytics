@@ -1,0 +1,13 @@
+participant_id,user_rows,text_messages,media_rows,deleted_rows,forwarded_rows,of_user_rows
+Participant_1,16,14,2,0,0,160
+Participant_2,18,13,2,3,0,160
+Participant_3,11,11,0,0,1,160
+Participant_4,14,14,0,0,1,160
+Participant_5,16,13,2,1,0,160
+Participant_6,17,14,3,0,0,160
+Participant_7,11,11,0,0,0,160
+Participant_8,7,7,0,0,0,160
+Participant_9,10,10,0,0,1,160
+Participant_10,9,7,1,1,1,160
+Participant_11,15,15,0,0,0,160
+Participant_12,16,14,2,0,1,160

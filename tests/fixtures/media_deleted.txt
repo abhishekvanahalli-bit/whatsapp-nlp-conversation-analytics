@@ -1,0 +1,23 @@
+‎Messages and calls are end-to-end encrypted. Only people in this chat can read them.
+[3/10/26, 9:00:00 AM] Alex Demo: <image omitted>
+[3/10/26, 9:01:00 AM] Alex Demo: <video omitted>
+[3/10/26, 9:02:00 AM] Alex Demo: <Media omitted>
+[3/10/26, 9:03:00 AM] Alex Demo: <unknown message>
+[3/10/26, 9:04:00 AM] Alex Demo: <album message>
+[3/10/26, 9:05:00 AM] Sam Sample: ‎image omitted
+[3/10/26, 9:06:00 AM] Sam Sample: sticker omitted
+[3/10/26, 9:07:00 AM] Sam Sample: audio omitted
+[3/10/26, 9:08:00 AM] Sam Sample: GIF omitted
+[3/10/26, 9:09:00 AM] Sam Sample: document omitted
+[3/10/26, 9:10:00 AM] Sam Sample: Contact card omitted
+[3/10/26, 9:11:00 AM] Sam Sample: ‎<attached: 00000001-PHOTO-2026-03-10-09-11-00.jpg>
+[3/10/26, 9:12:00 AM] Sam Sample: Missed voice call
+[3/10/26, 9:13:00 AM] Alex Demo: This message was deleted
+[3/10/26, 9:14:00 AM] Alex Demo: You deleted this message
+[3/10/26, 9:15:00 AM] Sam Sample: 🚫 This message was deleted
+[3/10/26, 9:16:00 AM] Sam Sample: This message was deleted by admin Alex Demo
+[3/10/26, 9:17:00 AM] Alex Demo: I said image omitted yesterday and sticker omitted today
+[3/10/26, 9:18:00 AM] Alex Demo: the file was deleted by mistake
+[3/10/26, 9:19:00 AM] Alex Demo: ok
+[3/10/26, 9:20:00 AM] Sam Sample: fixed the typo <This message was edited>
+[3/10/26, 9:21:00 AM] Sam Sample: [Forwarded] weekly reminder

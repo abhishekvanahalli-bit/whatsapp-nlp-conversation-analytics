@@ -1,0 +1,5 @@
+script,tokens_before,tokens_after,pct_removed
+latin,526,358,31.9
+devanagari,86,86,0.0
+placeholder,10,10,0.0
+other,12,12,0.0
