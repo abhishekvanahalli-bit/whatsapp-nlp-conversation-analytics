@@ -159,6 +159,8 @@ docs/                Design notes, supported formats, audit fixes, final verific
 notebooks/           Parsing and preprocessing walkthrough on the fictional sample
 data/                sample_chat.txt (fictional); real exports stay local and are ignored by Git
 results/             results/sample = output of the fictional sample; everything else ignored
+report/              Final MSc report (DOCX and PDF) with its two figures; all results use the fictional sample
+presentation/        Final 8-slide presentation (PPTX and PDF), its build script and the screenshot crops it uses (fictional data)
 .streamlit/          Theme and server configuration
 ```
 
@@ -172,5 +174,8 @@ from one; `.gitignore` and `scripts/check_repo_privacy.py` guard this.
 
 Prepared for an MSc Data Science programme. The scope is deliberately limited and descriptive. The results describe each uploaded chat only
 and are not generalisable statements about people or groups. See `docs/` for the design notes and `docs/final_verification.md` for what was tested.
+
+The final report is in `report/Final_Report_DRAFT.pdf` (editable source: `.docx`) and the presentation is in `presentation/`.
+Both use only the fictional sample chat.
 
 Licence: MIT (see `LICENSE`).
