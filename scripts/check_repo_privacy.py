@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ("example.com", "example.org", "example.net", "localhost", "127.
                  "unicode.org", "docs.streamlit.io", "playwright.dev", "opensource.org", "w3.org", "numpy.org",
                  "x.io", "mail.com")          # x.io / mail.com: invented hosts used only in test strings
 SECRET_ALLOW = ("topsecretmarker",)
+GENERIC_SENDERS = ("you",)
 SKIP_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".ico", ".pyc"}
 NEVER_COMMIT = [re.compile(p, re.I) for p in (r"(^|/)WhatsApp Chat", r"(?<!sample)_chat\.txt$", r"(^|/)data/chat\.txt$", r"\.zip$",
                                               r"(^|/)local_private/", r"(^|/)\.env$", r"\.pem$")]
@@ -79,7 +80,8 @@ def private_strings():
     urls = {x.rstrip(".,)") for t in msgs for x in re.findall(r"(?:https?://|www\.)\S+", t)}
     generic = ("omitted", "deleted", "unknown message", "album message", "missed voice call")
     texts = {t.strip().lower() for t in msgs if len(t.strip()) >= 20 and not any(g in t.lower() for g in generic)}
-    sender_names = {s.lower() for s in senders if s and not re.search(r"\d{5}", s)}
+    # "You" is WhatsApp's label for the exporting user, not a name; as a substring it matches ordinary words.
+    sender_names = {s.lower() for s in senders if s and not re.search(r"\d{5}", s) and s.strip().lower() not in GENERIC_SENDERS}
     digits = {re.sub(r"\D", "", x) for x in phones | senders if len(re.sub(r"\D", "", x)) >= 8}
     return {"sender name": sender_names, "private phone": {p.lower() for p in phones}, "private phone digits": digits,
             "private URL": {u.lower() for u in urls}, "private message text": texts}
@@ -141,7 +143,11 @@ def scan_file(path, private):
         if private:
             low = line.lower()
             for kind, items in private.items():
-                if any(x and x in (re.sub(r"\D", "", line) if "digits" in kind else low) for x in items):
+                if kind == "sender name":
+                    hit = any(re.search(r"(?<!\w)" + re.escape(x) + r"(?!\w)", low) for x in items if x)   # whole-name match
+                else:
+                    hit = any(x and x in (re.sub(r"\D", "", line) if "digits" in kind else low) for x in items)
+                if hit:
                     findings.append((rel, i, f"{kind} from the private chat"))
     return findings
 
