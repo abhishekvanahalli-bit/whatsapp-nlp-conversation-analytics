@@ -30,7 +30,7 @@ FICTIONAL_LINK_MARKERS = ("FICTIONAL", "AAA", "BBB", "DEMO", "EXAMPLE", "XYZ", "
 ALLOWED_HOSTS = ("example.com", "example.org", "example.net", "localhost", "127.0.0.1", "github.com", "streamlit.io",
                  "plotly.com", "pandas.pydata.org", "scikit-learn.org", "python.org", "pypi.org", "huggingface.co",
                  "unicode.org", "docs.streamlit.io", "playwright.dev", "opensource.org", "w3.org", "numpy.org",
-                 "x.io", "mail.com")          # x.io / mail.com: invented hosts used only in test strings
+                 "x.io", "mail.com", "img.shields.io")          # x.io / mail.com: invented hosts used only in test strings
 SECRET_ALLOW = ("topsecretmarker",)
 GENERIC_SENDERS = ("you",)
 SKIP_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".ico", ".pyc"}
