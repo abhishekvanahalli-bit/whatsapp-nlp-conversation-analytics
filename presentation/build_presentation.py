@@ -146,7 +146,7 @@ card(s, 0.7, 4.85, 5.7, 1.75)
 text(s, 0.95, 5.02, 5.3, 1.5, [
     [("Abhishek Vanahalli", {"bold": True, "size": 18})],
     [("CHRIST (Deemed to be University)", {"size": 15})],
-    [("Supervisor: Himani Sivaraman, Faculty, CHRIST (Deemed to be University)", {"size": 14, "color": MUTED})],
+    [("Supervisor: Dr. Himani Sivaraman, Faculty, CHRIST (Deemed to be University)", {"size": 14, "color": MUTED})],
     [("10/10/2026", {"size": 14, "color": MUTED})]], spacing=3)
 pic(s, overview_top, ov_size, 6.95, 1.95, w=5.9)
 text(s, 6.95, 5.2, 5.9, 0.3, "Overview page, fictional sample chat", size=12, color=MUTED, italic=True)
