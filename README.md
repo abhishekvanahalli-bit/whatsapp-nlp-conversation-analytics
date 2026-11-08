@@ -1,7 +1,37 @@
-# WhatsApp NLP & Conversation Analytics
+<div align="center">
+
+# WhatsApp Text Analyzer
+
+**WhatsApp NLP & Conversation Analytics**: a reproducible NLP pipeline and Streamlit dashboard for exported WhatsApp chats
+
+![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-3.x-150458?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/charts-Plotly-3F4F75?logo=plotly&logoColor=white)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Data: fictional sample only](https://img.shields.io/badge/example%20data-fictional%20only-blue)
+
+<img src="docs/images/overview.png" width="900" alt="Overview page of the dashboard, shown with the fictional sample chat">
+
+<sub>Dashboard shown with the fictional sample chat. No real conversation is part of this repository.</sub>
+
+</div>
 
 An MSc Data Science project: a reproducible pipeline and a Streamlit dashboard that describe the language and activity structure of
 an exported WhatsApp chat, with privacy-aware display and download. It is an academic project, not a commercial product.
+(The repository is named `whatsapp-nlp-conversation-analytics`; "WhatsApp Text Analyzer" is the short display name of the same project.)
+
+## Quick start
+
+```bash
+git clone https://github.com/abhishekvanahalli-bit/whatsapp-nlp-conversation-analytics.git
+cd whatsapp-nlp-conversation-analytics
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+```
+
+Then press **Load synthetic demo** in the sidebar to explore the dashboard with invented data, or upload your own export
+(see [Supported WhatsApp format](#7-supported-whatsapp-format)). Requires Python 3.11 or newer.
 
 > **Privacy first.** No real chat is part of this repository. All example data are **fictional**. A real chat you upload is processed
 > in a temporary folder that is deleted afterwards; the dashboard shows only anonymised, display-filtered tables.
@@ -51,7 +81,7 @@ command line and writes every output (including internal tables) to a folder you
 
 ## 5. Installation
 
-Developed and tested on Python 3.12 (Windows). Create an environment and install the runtime dependencies:
+Developed and tested on Python 3.12 (Windows). Python 3.11 or newer is required (pandas 3 does not support older versions). Create an environment and install the runtime dependencies:
 
 ```bash
 python -m venv .venv
@@ -85,17 +115,67 @@ previous run on screen with a short explanation.
 *Dashboard theme* (sidebar): optional PNG/JPG/WEBP image whose colours restyle the (always light and readable) interface. It lives only in the
 browser session, is never stored, analysed or downloaded, and cannot change any result.
 
+**Troubleshooting**
+
+| Problem | Likely cause and fix |
+|---|---|
+| `ModuleNotFoundError` | The environment is not active or dependencies are missing: activate `.venv` and run `pip install -r requirements.txt`. |
+| pip cannot find `pandas>=3.0` | Your Python is older than 3.11. Install Python 3.11+ (tested on 3.12) and recreate the environment. |
+| "does not look like a supported WhatsApp export" | Only `[M/D/YY, H:MM:SS AM/PM] Sender: message` is supported (section 7). Android "date, time - Sender" exports and 24-hour clocks are rejected. |
+| Port 8501 already in use | `streamlit run app/streamlit_app.py --server.port 8502` |
+| Page stays blank for a few seconds on first start | Streamlit is still loading; wait and refresh. |
+| `check_repo_privacy.py` reports findings | Read each file and line it lists. It is a safety net, not proof of safety; also read `git status` before committing. |
+
+**Exporting your own chat:** in WhatsApp open the chat, then *More > Export chat > Without media*, and upload the resulting `.txt` in the dashboard.
+Keep real exports on your own machine: `.gitignore` already excludes `data/chat.txt`, `chat.txt`, `WhatsApp Chat*` and `local_private/`.
+
 ## Screenshots
 
 All screenshots use the **fictional** sample chat `data/sample_chat.txt` (12 invented participants); no real chat is shown.
 
-| | |
+**Overview**: KPI cards, daily activity, message composition, key terms, script mix, repetition and key findings.
+
+<img src="docs/images/overview.png" width="900" alt="Overview page">
+
+**Conversation**: activity timeline, composition, repetition, hour / weekday / text-length tables.
+
+<img src="docs/images/conversation.png" width="900" alt="Conversation page">
+
+**NLP Insights, TF-IDF**: distinctive terms in this chat, with a scores table and a reading guide.
+
+<img src="docs/images/nlp_tfidf.png" width="900" alt="TF-IDF tab">
+
+**NLP Insights, Script Mix**: writing systems per message (Latin, Devanagari, mixed, none). This is script, not language.
+
+<img src="docs/images/nlp_script_mix.png" width="900" alt="Script Mix tab">
+
+**NLP Insights, Key Terms**: terms ranked by the number of distinct messages that contain them.
+
+<img src="docs/images/nlp_key_terms.png" width="900" alt="Key Terms tab">
+
+**Patterns**: repetition summary with anonymous "Template T1..." ids (message text is never shown).
+
+<img src="docs/images/patterns.png" width="900" alt="Patterns page">
+
+**Empty state**: what the dashboard shows before a chat is loaded, including the upload area.
+
+<img src="docs/images/empty_state.png" width="900" alt="Empty state before a chat is loaded">
+
+## Sample output
+
+Values below are read from the fictional sample (`results/sample/`, also visible in the Overview screenshot), not from a real chat:
+
+| Measure | Value |
 |---|---|
-| **Overview** | ![Overview page](docs/images/overview.png) |
-| **Conversation** | ![Conversation page](docs/images/conversation.png) |
-| **NLP Insights: TF-IDF** | ![TF-IDF tab](docs/images/nlp_tfidf.png) |
-| **Patterns** | ![Patterns page](docs/images/patterns.png) |
-| **Empty state (before a chat is loaded)** | ![Empty state](docs/images/empty_state.png) |
+| Parsed rows | 168 (1 header, 7 system, 160 participant messages) |
+| Participant messages | 160: 143 text, 12 media, 5 deleted |
+| Participants / active days | 12 / 13 |
+| Script Mix of the 143 text messages | 103 Latin-only, 28 Devanagari-only, 2 mixed-script, 10 no alphabetic text |
+| Repetition | 99 of 143 text messages repeat an earlier text (35 repeated templates) |
+| Top key term (by distinct messages) | `please` (4 distinct messages) |
+
+Running the pipeline from the command line writes every table to the folder you choose, for example
+`python scripts/run_full_pipeline.py --input data/sample_chat.txt --out results/latest --summary`.
 
 ## 7. Supported WhatsApp format
 
@@ -169,6 +249,19 @@ presentation/        Final 8-slide presentation (PPTX and PDF), its build script
 All committed chats are invented: names such as "Alex Demo", numbers such as `+91 90000 12345`, links such as `example.com`. They are generated by
 `scripts/generate_synthetic_fixtures.py` (fixed seeds) or written by hand. Never commit a real export, a screenshot of one, or a file derived
 from one; `.gitignore` and `scripts/check_repo_privacy.py` guard this.
+
+## Publishing your own copy to GitHub
+
+1. Create an empty repository on GitHub (no README, no licence; they already exist here).
+2. Run `python scripts/check_repo_privacy.py` and `git status`; confirm that no export, screenshot of a real chat, or `local_private/` file is listed.
+3. Then connect and push:
+
+```bash
+git remote add origin https://github.com/<your-user>/<your-repo>.git
+git push -u origin master
+```
+
+Use only screenshots taken with the fictional sample chat. Re-generate them with `python scripts/browser_smoke_test.py` (optional, needs Playwright and Edge or Chromium).
 
 ## 15. Academic project note
 

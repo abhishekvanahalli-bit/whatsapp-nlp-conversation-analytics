@@ -36,6 +36,7 @@ tests/test_private_sample_regression.py
 WhatsApp Chat*
 *WhatsApp*Chat*.txt
 _chat.txt
+chat.txt
 *.zip
 # Generated results: only the documented synthetic example (results/sample) is committed
 results/*
